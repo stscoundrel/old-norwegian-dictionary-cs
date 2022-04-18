@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7408BB0E-5BFA-468E-8B8B-7160B02C765A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OldNorwegianDictionary", "src\OldNorwegianDictionary.csproj", "{160CE1E0-9F58-4B37-B5FF-CC2B8E16D491}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OldNorwegianDictionaryTest", "tests\OldNorwegianDictionaryTest.csproj", "{88DA9F10-5714-442D-8B94-32C0BB1BBBB4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{160CE1E0-9F58-4B37-B5FF-CC2B8E16D491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{160CE1E0-9F58-4B37-B5FF-CC2B8E16D491}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{160CE1E0-9F58-4B37-B5FF-CC2B8E16D491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{160CE1E0-9F58-4B37-B5FF-CC2B8E16D491}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{160CE1E0-9F58-4B37-B5FF-CC2B8E16D491} = {7408BB0E-5BFA-468E-8B8B-7160B02C765A}
+	EndGlobalSection
+EndGlobal
