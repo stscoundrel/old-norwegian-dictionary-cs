@@ -1,3 +1,5 @@
+namespace OldNorwegianDictionary;
+
 public readonly struct DictionaryEntry
 {
     public string Headword { get; init; }
