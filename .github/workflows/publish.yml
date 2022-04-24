@@ -22,4 +22,4 @@ jobs:
       - name: Create the package
         run: dotnet pack --configuration Release src/OldNorwegianDictionary.csproj
       - name: Publish the package to NuGet
-        run: dotnet nuget push src/OldNorwegianDictionary.csproj/bin/Release/*.nupkg
+        run: dotnet nuget push src/OldNorwegianDictionary/bin/Release/*.nupkg
