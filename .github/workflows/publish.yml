@@ -16,6 +16,8 @@ jobs:
         with:
           dotnet-version: '6.0.x'
           source-url: https://nuget.pkg.github.com/stscoundrel/index.json
+        env:
+          NUGET_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
       - run: dotnet build --configuration Release src/OldNorwegianDictionary.csproj
       - name: Create the package
         run: dotnet pack --configuration Release src/OldNorwegianDictionary.csproj
