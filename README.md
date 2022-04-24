@@ -19,7 +19,7 @@ using OldNorwegianDictionary;
 // Get all dictionary entries.
 var dictionary = new Dictionary();
 var result = dictionary.GetEntries();
-Console.WriteLine(dictionar.Count); // 42 021 entries.
+Console.WriteLine(result.Count); // 42 021 entries.
 
 // Individual entry contains headword, definition and part of speech.
 DictionaryEntry entry = result[42000];
